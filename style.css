@@ -1,116 +1,149 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, serif;
 }
-body{
+
+body {
     background-color: #93ac93;
 }
-.Navbar{
+
+.Navbar {
     position: sticky;
-    top:0;
+    top: 0;
     z-index: 1;
     background-color: white;
     /* padding: 32px 0; */
 }
-nav{
-    height: 120px;
+
+nav {
+    height: 150px;
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 2rem;
+    justify-content: center;
+    /* margin-bottom: 2rem; */
     align-items: center;
-    
+
+
 }
 
-.navLists{
+.navLists {
     list-style-type: none;
 }
 
-.navItem{
+.navItem {
     display: inline-block;
     margin: 0px 30px;
     /* padding-top: 22px; */
+
 }
 
-.navLink{
+.navLink {
     /* font-family: cursive; */
-    font-size:large;
-    color: red;
+    font-size: 100%;
+    font-weight: bold;
+    color: rgb(220, 30, 30);
     text-decoration: none;
 }
-.navLink:hover{
+
+.navLink:hover {
     color: yellow;
+    cursor: pointer;
 }
-.logoDiv img{
+
+.logoDiv img {
     border-radius: 50%;
+    margin: 0 12px;
 }
-.borderRight{
+
+.borderRight {
     /* width: 2px; */
     height: 50px;
     font-size: 30px;
     display: inline-block;
 }
 
-.hero hr{
+.hero hr {
     border: 2px solid black;
 }
 
-.cake-img{
+.cake-img {
     width: 100%;
     position: relative;
 }
 
-.cake-img img{
+.cake-img img {
     width: 100%;
 }
 
-.cake-img h1,h3{
+.cake-img h1,
+h3 {
     position: absolute;
 }
 
-.cake-img h1{
+.cake-img h1 {
     color: white;
-    background-color: red;
-    left:18%;
+    background-color: rgb(220, 30, 30);
+    left: 18%;
     bottom: 35%;
     font-size: 370%;
     padding: 12px 24px;
 }
 
-.cake-img h3{
-    color: red;
+.cake-img h3 {
+    color: rgb(220, 30, 30);
     background-color: yellow;
-    left:18%;
+    left: 18%;
     bottom: 22.7%;
     padding: 12px 24px;
 }
 
-.card{
+/* products */
+
+.card {
     position: relative;
-border: 3px solid black;
-padding: 10px;
-
-
-}
-.prodNameOnHover{
-display: none;
-position: absolute;
-bottom: 10px;
-background-color: #ffa600;
-width: 93%;
-text-align: center;
-color: black;
+    border: 3px solid black;
+    padding: 10px;
+    /* background-image: url("assets/blackforest_cake.jpg"); */
 
 }
 
-.card:hover img{ 
+.card-footer {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    /* background-color: #ffa600; */
+    width: 100%;
+    text-align: center;
+    color: black;
+
+}
+
+.col{
+    border-radius: 0px;
+}
+
+.card:hover img {
     opacity: 0.4;
 }
-.card:hover{
-    border-color:  #ffa600;
+
+.card:hover {
+    border-color: #ffa600;
 }
-.card:hover .prodNameOnHover{
+
+.card:hover .card-footer {
     display: block;
-    opacity: 1;
+    background-color: #ffa600;
+}
+
+/* reviews */
+.customer-reviewer-img{
+    transform:skewX(8deg);
+}
+
+.review div{
+    background-color: rgb(220, 30, 30);
+    color: white;
 }
