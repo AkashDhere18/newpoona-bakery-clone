@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="./style.css" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-    <nav class="Navbar">
+    <nav class="Navbar z-2">
         <ul class="navLists">
             <li class="navItem ">
                 <a href="#" class="navLink">Home</a>
@@ -64,69 +68,69 @@
     <section class="ourProducts">
         <h2 class="text-center fs-6 fw-bold">OUR BAKERY PRODUCT</h2>
         <p class="text-center fs-6 fw-lighter">Have a look at some of our best-selling products.</p>
-        <div class="container">
+        <div class="container fw-bolder">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                 <div class="col px-2">
-                    <div class="card " >
+                    <div class="card ">
                         <img src="./assets/blackforest_cake.jpg" class="card-img-top" alt="blackforest">
-                        <div class="card-footer">
-                            <h5>Blackforest cake</h5>
+                        <div class="card-footer fw-bold">
+                            <p class="fw-bold fs-5">Cake's</p>
                         </div>
                     </div>
                 </div>
                 <div class="col px-2">
-                    <div class="card" >
-                        <img src="./assets/blackforest_cake.jpg" class="card-img-top" alt="blackforest">
+                    <div class="card">
+                        <img src="./assets/blackforest_pastry.jpg" class="card-img-top" alt="blackforest">
                         <div class="card-footer">
-                            <h5>Blackforest cake</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col  px-2">
-                    <div class="card" >
-                        <img src="./assets/blackforest_cake.jpg" class="card-img-top" alt="blackforest">
-                        <div class="card-footer">
-                            <h5>Blackforest cake</h5>
+                            <p class="fw-bold fs-5">Pastry</p>
                         </div>
                     </div>
                 </div>
                 <div class="col  px-2">
                     <div class="card">
-                        <img src="./assets/blackforest_cake.jpg" class="card-img-top" alt="blackforest">
+                        <img src="./assets/Vegpuff.jpg" class="card-img-top" alt="blackforest">
                         <div class="card-footer">
-                            <h5>Blackforest cake</h5>
+                            <p class="fw-bold fs-5">Puff</p>
                         </div>
                     </div>
                 </div>
                 <div class="col  px-2">
-                    <div class="card" >
-                        <img src="./assets/blackforest_cake.jpg" class="card-img-top" alt="blackforest">
+                    <div class="card">
+                        <img src="./assets/chocoalate_creamroll.jpg" class="card-img-top" alt="blackforest">
                         <div class="card-footer">
-                            <h5>Blackforest cake</h5>
+                            <p class="fw-bold fs-5">Cream roll's</p>
                         </div>
                     </div>
                 </div>
                 <div class="col  px-2">
-                    <div class="card" >
-                        <img src="./assets/blackforest_cake.jpg" class="card-img-top" alt="blackforest">
+                    <div class="card">
+                        <img src="./assets/chocochip_cookies.jpg" class="card-img-top" alt="blackforest">
                         <div class="card-footer">
-                            <h5>Blackforest cake</h5>
+                            <p class="fw-bold fs-5">Cookies</p>
                         </div>
                     </div>
                 </div>
                 <div class="col  px-2">
-                    <div class="card" >
-                        <img src="./assets/blackforest_cake.jpg" class="card-img-top" alt="blackforest">
+                    <div class="card">
+                        <img src="./assets/whole_wheat_toast.jpg" class="card-img-top" alt="blackforest">
                         <div class="card-footer">
-                            <h5>Blackforest cake</h5>
+                            <p class="fw-bold fs-5">Tea time munchies</p>
                         </div>
                     </div>
                 </div>
                 <div class="col  px-2">
-                    <div class="card" >
-                        <img src="./assets/blackforest_cake.jpg" class="card-img-top" alt="blackforest">
+                    <div class="card">
+                        <img src="./assets/whole_wheat_bread.jpg" class="card-img-top" alt="blackforest">
                         <div class="card-footer">
-                            <h5>Blackforest cake</h5>
+                            <p class="fw-bold fs-5">Bread and diet products</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col  px-2">
+                    <div class="card">
+                        <img src="./assets/paneer_roll.jpg" class="card-img-top" alt="blackforest">
+                        <div class="card-footer">
+                            <p class="fw-bold fs-5">Mini meals</p>
                         </div>
                     </div>
                 </div>
@@ -134,18 +138,156 @@
         </div>
     </section>
 
-    <section class="review d-flex justify-content-center gap-5 mt-5 w-100 bg-warning align-items-center position-relative" style="height: 300px;" >
+    <section
+        class="review d-flex justify-content-center gap-5 mt-5 w-100 bg-warning align-items-center position-relative"
+        style="height: 300px;">
         <div class="position-absolute py-2 px-5 z-1" style="height:70px; line-height:90%; bottom: 10%; left:30%">
             <p>-MR. Lorem, ipsum.</p>
             <P>Lorem ipsum dolor sit amet.</P>
         </div>
         <img src="assets/blank-profile.jpg" alt="" class="h-100 customer-reviewer-img px-2 bg-secondary">
-        <p class="fs-5">"Go ahed and gift this cuties to your loved ones this Diwali season and spread the happines. "</p>
+        <p class="fs-5">"Go ahed and gift this cuties to your loved ones this Diwali season and spread the happines. "
+        </p>
+    </section>
+
+    <section class="position-relative" style="height: 550px;">
+        <div class="d-flex justify-content-between px-4 ">
+            <div class="position-absolute" style="left: 10px; bottom: 0;">
+                <img src="assets/tool_bottom.png" alt="" />
+            </div>
+            <div class="py-5">
+
+                <h2 class="text-center fs-6 fw-bold mb-3">Main services we provide</h2>
+                <p class="text-center fs-6 fw-lighter mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="d-flex justify-content-center g-4" style="margin: 0 10%;">
+                    <div class="text-center lh-base  mx-2">
+                        <img src="assets/outlets.png" alt="" class="rounded-circle border border-danger-subtle mb-4" />
+                        <h2 class="mb-3">Our leagacy</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla laborum necessitatibus
+                            consequatur maiores non.</p>
+                    </div>
+                    <div class="text-center lh-base  mx-2">
+                        <img src="assets/outlets.png" alt="" class="rounded-circle border border-danger-subtle mb-4" />
+                        <h2 class="mb-3">Our leagacy</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla laborum necessitatibus
+                            consequatur maiores non.</p>
+                    </div>
+                    <div class="text-center lh-base  mx-2">
+                        <img src="assets/franchise.png" alt=""
+                            class="rounded-circle border border-danger-subtle mb-4" />
+                        <h2 class="mb-3">Our leagacy</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla laborum necessitatibus
+                            consequatur maiores non.</p>
+                    </div>
+                    <div class="text-center lh-base mx-2">
+                        <img src="assets/career.png" alt="" class="rounded-circle border border-danger-subtle mb-4" />
+                        <h2 class="mb-3">Our leagacy</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla laborum necessitatibus
+                            consequatur maiores non.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="position-absolute  " style="right: 10px; top: 0;">
+                <img src="assets/tool_top.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <section class=" pt-5 d-flex flex-column align-items-center gap-5"
+        style="width: 100%; height:650px; background-color: rgba(174, 172, 172, 0.745); background-image: url('assets/slider4.jpg'); background-repeat: no-repeat;">
+        <h1 class="text-uppercase my-5 fw-bold ">We are a part of our daily life</h1>
+        <img src="assets/bread.png" alt="" style="width: 45%;" />
+    </section>
+
+    <section class="Map-location position-relative" style="height: 520px;">
+        <div class="contactUs-Form position-absolute py-5 px-4 text-white" style="width: 25%; height: 100%;">
+            <form class="d-flex flex-column lh-lg ">
+                <h2 class="text-center fw-bold text-uppercase fs-4">Contact us</h2>
+                <p>Have a question?</p>
+                <p>Write to us and we promise to get back to you</p>
+                <input type="text" id="yourName" placeholder="Your name here" />
+                <input type="email" id="yourEmail" placeholder="Your email here" />
+                <input type="text-box" id="message" placeholder="Your message here" />
+
+                <button class="send-msg">Send message</button>
+            </form>
+
+        </div>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15125.415886885594!2d73.7456453624246!3d18.603142076793382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b97d7e00857b%3A0x850fe751ce4476e9!2sNew%20Poona%20Bakery%20(%20Superstore%20Factory%20Outlet%20)!5e0!3m2!1sen!2sin!4v1772616112431!5m2!1sen!2sin"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="footer">
+        <div class="footer-top h-30 ">
+            <div class=" text-wrap">
+                <p class="fw-bold">New Poona Bakery</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda eveniet consequuntur sit!
+                    Distinctio ab a expedita, suscipit ullam necessitatibus sit sed unde, ut nam cupiditate harum autem
+                    enim eaque nisi. Commodi, quaerat? Quaerat minima excepturi a illo repudiandae perferendis
+                    voluptate, temporibus sapiente impedit, dicta possimus, minus itaque labore perspiciatis quasi.</p>
+            </div>
+            <div>
+                <img src="assets/logo (2).png" alt="logo" />
+            </div>
+        </div>
+        <div class="footer-bottom h-100 ">
+            <div class="row row-cols-lg-4 gx-5 fw-bold">
+
+
+                <div class="follow-us col">
+                    <p>FOLLOW US</p>
+                    <i class="fa-brands fa-facebook brand fs-6"></i>
+                    <i class="fa-brands fa-x-twitter brand fs-6"></i>
+                    <i class="fa-brands fa-instagram brand fs-6"></i>
+
+                </div>
+                <div class="contact-us  col">
+                    <p>CONTACT US</p>
+                    <div class="d-flex fs-6 gap-1">
+                        <i class="fa-solid fa-phone mt-1"></i>
+                        <p>+91 2154879865 <br> +91 2154879865</p>
+                    </div>
+                    <div class="d-flex fs-6 gap-1">
+                        <i class="fa-solid fa-location-arrow mt-1"></i>
+                        <p>672/C/2, Budhwar Peth, Jogeshwari Chowk,Pune - 2.</p>
+                    </div>
+
+                    <p class="fs-6"><i class="fa-solid fa-envelope"></i>feedback@newpoonabakery.com</p>
+                    <p class="fs-6"><i class="fa-solid fa-earth-africa"></i>www.newpoonabakery.com</p>
+                </div>
+                <div class="factory text-wrap col">
+                    <p>FACTORY</p>
+                    <div class="d-flex fs-6 gap-2">
+                        <i class="fa-solid fa-phone mt-1"></i>
+                        <p>+91 2154879865 <br> +91 2154879865</p>
+                    </div>
+                    <div class="d-flex fs-6 gap-1">
+                        <i class="fa-solid fa-location-arrow mt-1"></i>
+                        <p>Sr.No. 114/1/2, Bhumkar Vasti, Near iiebm College, I.T. Park, Phase II Road, Wakad, Pune -
+                            57.</p>
+                    </div>
+                </div>
+                <div class="working-time text-wrap col">
+                    <P>WORKING-TIME</P>
+                    <p>Monday - Friday: 10:00 am - 08:00 pm</p>
+                    <p>Saturday - Sunday: 10:00 am - 01:00 pm</p>
+                </div>
+            </div>
+            <div>
+                <p class="text-center mt-4" style="font-size: 80%;">2018 All rights reserved, Powered by <span
+                        style="color: rgb(211, 211, 18);">The Placet.</span></p>
+            </div>
+
+        </div>
+
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
